@@ -13,7 +13,7 @@ const tabs = [
     backgroundSizeX: 150,
   },
   {
-    icon: "/assets/lottie/lift.lottie",
+    icon: "/assets/lottie/time.lottie",
     title: "Workout Optimization",
     isNew: true,
     backgroundPositionX: 98,
@@ -51,7 +51,12 @@ export const Features = () => {
               className="border border-white/15 flex p-2.5 rounded-xl gap-2.5 items-center lg:flex-1"
             >
               <div className="h-12 w-12 border border-white/15 rounded-lg inline-flex items-center justify-center">
-                <DotLottieReact src={tab.icon} className="h-20 w-20" autoplay />
+                <DotLottieReact
+                  src={tab.icon}
+                  className="h-20 w-20"
+                  autoplay
+                  loop
+                />
               </div>
               <div className="font-medium">{tab.title}</div>
               {tab.isNew && (
