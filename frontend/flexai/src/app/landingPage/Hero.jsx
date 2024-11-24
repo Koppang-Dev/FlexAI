@@ -13,7 +13,7 @@ export const Hero = () => {
         motivated.
       </p>
       <div className="flex justify-center mt-5">
-        <Button>Join Waitlist</Button>
+        <Button>Register</Button>
       </div>
     </section>
   );

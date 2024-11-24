@@ -1,4 +1,5 @@
 // app/landingPage/Header.jsx
+import Link from "next/link";
 import { Button } from "@/components/Button";
 
 const Header = () => {
@@ -27,7 +28,9 @@ const Header = () => {
             </nav>
           </div>
           <div className="flex gap-4 items-center">
-            <Button>Join Waitlist</Button>
+            <Link href="/register">
+              <Button>Register</Button>
+            </Link>
             <span>menu</span>
           </div>
         </div>
