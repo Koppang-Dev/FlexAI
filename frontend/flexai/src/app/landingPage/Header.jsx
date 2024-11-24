@@ -28,10 +28,10 @@ const Header = () => {
             </nav>
           </div>
           <div className="flex gap-4 items-center">
-            <Link href="/register">
+            <Link href="/signup">
               <Button>Register</Button>
             </Link>
-            <span>menu</span>
+            c<span>menu</span>
           </div>
         </div>
       </div>
